@@ -5,8 +5,6 @@ pydantic-settings
 pyyaml
 requests
 pandas
-sentence-transformers
-esco-skill-extractor
 wbgapi
 python-multipart
 google-generativeai
