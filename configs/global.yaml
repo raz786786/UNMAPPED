@@ -1,0 +1,56 @@
+country_name: "Global"
+country_iso: "GLB"
+
+module_sse:
+  ui_language: "en"
+  education_taxonomy: "ISCED"
+  isced_map:
+    "Primary School": 1
+    "Lower Secondary": 2
+    "Secondary School Certificate": 3
+    "WAEC/WASSCE": 3
+    "SSC/HSC": 3
+    "High School Diploma": 3
+    "GED": 3
+    "O-Levels": 3
+    "A-Levels": 3
+    "Matriculation": 3
+    "National Diploma": 5
+    "Diploma": 5
+    "Associate Degree": 5
+    "Bachelor's Degree": 6
+    "Master's Degree": 7
+    "Doctorate / PhD": 8
+  esco_version: "v1.2.0"
+  voice_input: true
+  offline_mode: true
+  skill_confidence_threshold: 0.6
+
+module_ari:
+  automation_dataset: "frey_osborne_2017"
+  itu_digital_index_source: "ITU_2024"
+  wage_floor_source: "ILO_ILOSTAT"
+  wage_automation_elasticity: 0.4
+  digital_readiness_weight: 0.3
+  wittgenstein_scenario: "SSP2"
+  projection_year: 2035
+  lmic_context: "global_default"
+
+module_omd:
+  ilostat_indicators:
+    - "EMP_TEMP_SEX_STE_NB"
+    - "EAR_XTWS_SEX_EDU_NB"
+  world_bank_indicators:
+    - "HD.HCI.LAYS"
+    - "SL.UEM.1524.ZS"
+  opportunity_types:
+    - "formal_employment"
+    - "self_employment"
+    - "gig"
+    - "training_pathway"
+    - "cooperative"
+  employer_data_source: "WBES"
+  currency: "USD"
+  min_wage_usd: 150
+  median_wage_usd: 400
+  mobility_constraint: "national"

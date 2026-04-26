@@ -1,0 +1,7 @@
+isco_code,occupation_label,fo_automation_probability,routine_manual_index,routine_cognitive_index,non_routine_index
+7421,Electronics Repair Technician,0.58,0.72,0.45,0.35
+3512,ICT Help Desk Technician,0.42,0.30,0.65,0.55
+5223,Shop Sales Assistant,0.92,0.40,0.85,0.15
+7231,Motor Vehicle Mechanic,0.46,0.80,0.30,0.40
+3115,Mechanical Engineering Technician,0.18,0.25,0.40,0.75
+9112,Domestic Cleaner,0.66,0.90,0.10,0.10

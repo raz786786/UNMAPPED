@@ -1,0 +1,40 @@
+country_name: "Bangladesh"
+country_iso: "BGD"
+
+module_sse:
+  ui_language: "bn"
+  education_taxonomy: "ISCED"
+  isced_map:
+    "SSC/HSC": 3
+    "Diploma": 5
+  esco_version: "v1.2.0"
+  voice_input: true
+  offline_mode: true
+  skill_confidence_threshold: 0.6
+
+module_ari:
+  automation_dataset: "frey_osborne_2017"
+  itu_digital_index_source: "ITU_2024"
+  wage_floor_source: "ILO_ILOSTAT"
+  wage_automation_elasticity: 0.4
+  digital_readiness_weight: 0.25
+  wittgenstein_scenario: "SSP2"
+  projection_year: 2035
+  lmic_context: "south_asia_rural_agricultural"
+
+module_omd:
+  ilostat_indicators:
+    - "EMP_TEMP_SEX_STE_NB"
+    - "EAR_XTWS_SEX_EDU_NB"
+  world_bank_indicators:
+    - "HD.HCI.LAYS"
+    - "SL.UEM.1524.ZS"
+  opportunity_types:
+    - "cooperative"
+    - "agricultural_value_chain"
+    - "microenterprise"
+  employer_data_source: "WBES"
+  currency: "BDT"
+  min_wage_usd: 68
+  median_wage_usd: 220
+  mobility_constraint: "rural_within_50km"
