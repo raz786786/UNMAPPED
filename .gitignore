@@ -1,9 +1,30 @@
-node_modules
-__pycache__
+# Dependencies
+node_modules/
+__pycache__/
 *.pyc
-dist
-frontend/.env
-dist-ssr
-*.local
-*.enc
+.venv/
+env/
+venv/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+
+# Environment variables & Secrets
 .env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+*.enc
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Local history
+.history/

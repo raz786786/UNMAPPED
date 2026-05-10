@@ -1,14 +1,12 @@
 import google.generativeai as genai
 import os
 import json
-from dotenv import load_dotenv
-
-load_dotenv()
+from settings import settings
 
 class GeminiExtractor:
     def __init__(self):
-        api_key = os.getenv("GEMINI_API_KEY")
-        model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+        api_key = settings.gemini_api_key
+        model_name = settings.gemini_model
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel(model_name)
 
