@@ -4,6 +4,15 @@ UNMAPPED is a high-performance, AI-driven skills infrastructure designed to empo
 
 ![Homepage](Docs/ScreenShots/Homepage.png)
 
+## 🔐 Authentication & Onboarding
+The platform ensures secure access and personalized experiences through a robust authentication layer.
+
+| Sign Up Page | Sign In Page |
+| :---: | :---: |
+| ![Sign Up](Docs/ScreenShots/SignUP%20page.png) | ![Sign In](Docs/ScreenShots/Sign%20in.png) |
+
+---
+
 ## 📱 Platform Modules
 
 ### 1. Become a Worker
@@ -28,11 +37,19 @@ A marketplace view for employers and researchers to explore the global talent ne
 The employer-facing module for organizational growth and opportunity creation.
 - **Job Posting**: Organizations can create detailed job listings specifying required skills, salary ranges, and custom application fields.
 - **Application Management**: Track and manage incoming applications from the global talent pool.
-- **Response Tracking**: Direct visibility into applicant matches and engagement.
 
-| Job Creation | Active Postings |
-| :---: | :---: |
-| ![Job Creation](Docs/ScreenShots/Job%20Posting.png) | ![Active Postings](Docs/ScreenShots/My%20Posting.png) |
+| Job Creation | Job Details View | Form Customization |
+| :---: | :---: | :---: |
+| ![Job Creation](Docs/ScreenShots/Job%20Posting.png) | ![Job Details](Docs/ScreenShots/Job%20Posting%201.png) | ![Custom Fields](Docs/ScreenShots/Job%20Posting%202.png) |
+
+---
+
+## 💼 Application Workflow
+A seamless experience for workers to find and apply for opportunities.
+
+| Discovery | Application Form | Management |
+| :---: | :---: | :---: |
+| ![Apply Now](Docs/ScreenShots/Apply%20Now.png) | ![Form](Docs/ScreenShots/Application%20Form.png) | ![Response](Docs/ScreenShots/My%20Posting%20with%20Response.png) |
 
 ---
 
